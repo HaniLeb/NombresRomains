@@ -77,6 +77,19 @@ namespace NombresRomains.Test
 
             Assert.Equal("VI", nombreRomain);
 
+        }        
+        
+        [Fact(DisplayName = "Etant donné le chiffre 7" +
+                            "Quand je convertis chiffreArabe en NombreRomain" +
+                            "Alors j'obtiens 7")]
+        public void Test7()
+        {
+            const uint chiffreArabe = 7;
+
+            var nombreRomain = Convertisseur.Convertir(chiffreArabe);
+
+            Assert.Equal("VII", nombreRomain);
+
         }
     }
 }
