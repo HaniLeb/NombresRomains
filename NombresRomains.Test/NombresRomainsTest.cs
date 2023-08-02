@@ -5,7 +5,7 @@ namespace NombresRomains.Test
         [Fact(DisplayName = "Etant donné le chiffre 1" +
                             "Quand je convertis chiffreArabe en NombreRomain" +
                             "Alors j'obtiens I")]
-        public void Test1()
+        public void TestUn()
         {
             const uint chiffreArabe = 1;
 
@@ -17,7 +17,7 @@ namespace NombresRomains.Test
         [Fact(DisplayName = "Etant donné le chiffre 2" +
                             "Quand je convertis chiffreArabe en NombreRomain" +
                             "Alors j'obtiens II")]
-        public void Test2()
+        public void TestDeux()
         {
             const uint chiffreArabe = 2;
 
@@ -30,7 +30,7 @@ namespace NombresRomains.Test
         [Fact(DisplayName = "Etant donné le chiffre 3" +
                             "Quand je convertis chiffreArabe en NombreRomain" +
                             "Alors j'obtiens III")]
-        public void Test3()
+        public void TestTrois()
         {
             const uint chiffreArabe = 3;
 
@@ -43,7 +43,7 @@ namespace NombresRomains.Test
         [Fact(DisplayName = "Etant donné le chiffre 4" +
                             "Quand je convertis chiffreArabe en NombreRomain" +
                             "Alors j'obtiens IV")]
-        public void Test4()
+        public void TestQuatre()
         {
             const uint chiffreArabe = 4;
 
@@ -56,7 +56,7 @@ namespace NombresRomains.Test
         [Fact(DisplayName = "Etant donné le chiffre 5" +
                             "Quand je convertis chiffreArabe en NombreRomain" +
                             "Alors j'obtiens V")]
-        public void Test5()
+        public void TestCinq()
         {
             const uint chiffreArabe = 5;
 
@@ -69,7 +69,7 @@ namespace NombresRomains.Test
         [Fact(DisplayName = "Etant donné le chiffre 6" +
                             "Quand je convertis chiffreArabe en NombreRomain" +
                             "Alors j'obtiens 6")]
-        public void Test6()
+        public void TestSix()
         {
             const uint chiffreArabe = 6;
 
@@ -82,7 +82,7 @@ namespace NombresRomains.Test
         [Fact(DisplayName = "Etant donné le chiffre 7" +
                             "Quand je convertis chiffreArabe en NombreRomain" +
                             "Alors j'obtiens 7")]
-        public void Test7()
+        public void TestSept()
         {
             const uint chiffreArabe = 7;
 
@@ -95,7 +95,7 @@ namespace NombresRomains.Test
         [Fact(DisplayName = "Etant donné le chiffre 8" +
                             "Quand je convertis chiffreArabe en NombreRomain" +
                             "Alors j'obtiens 8")]
-        public void Test8()
+        public void TestHuit()
         {
             const uint chiffreArabe = 8;
 
@@ -108,7 +108,7 @@ namespace NombresRomains.Test
         [Fact(DisplayName = "Etant donné le chiffre 9" +
                             "Quand je convertis chiffreArabe en NombreRomain" +
                             "Alors j'obtiens 9")]
-        public void Test9()
+        public void TestNeuf()
         {
             const uint chiffreArabe = 9;
 
@@ -121,7 +121,7 @@ namespace NombresRomains.Test
         [Fact(DisplayName = "Etant donné le chiffre 10" +
                             "Quand je convertis chiffreArabe en NombreRomain" +
                             "Alors j'obtiens 10")]
-        public void Test10()
+        public void TestDix()
         {
             const uint chiffreArabe = 10;
 
