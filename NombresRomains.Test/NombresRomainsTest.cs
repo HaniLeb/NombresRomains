@@ -38,6 +38,19 @@ namespace NombresRomains.Test
 
             Assert.Equal("III", nombreRomain);
 
+        }        
+        
+        [Fact(DisplayName = "Etant donné le chiffre 4" +
+                            "Quand je convertis chiffreArabe en NombreRomain" +
+                            "Alors j'obtiens IV")]
+        public void Test4()
+        {
+            const uint chiffreArabe = 4;
+
+            var nombreRomain = Convertisseur.Convertir(chiffreArabe);
+
+            Assert.Equal("IV", nombreRomain);
+
         }
     }
 }

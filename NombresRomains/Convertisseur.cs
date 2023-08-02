@@ -1,6 +1,6 @@
 ﻿namespace NombresRomains
 {
-    public class Convertisseur
+    public static class Convertisseur
     {
         public static string Convertir(uint chiffreArabe)
         {
