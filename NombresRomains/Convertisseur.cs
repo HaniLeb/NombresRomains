@@ -4,15 +4,12 @@
     {
         public static string Convertir(uint chiffreArabe)
         {
-            switch (chiffreArabe)
+            return chiffreArabe switch
             {
-                case 1:
-                    return "I";
-                case 2:
-                    return "II";
-                default:
-                    return "Erreur";
-            }
+                1 => "I",
+                2 => "II",
+                _ => "Erreur"
+            };
         }
     }
 }
