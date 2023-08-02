@@ -2,16 +2,19 @@ namespace NombresRomains.Test
 {
     public class NombresRomainsTest
     {
-        [Fact(DisplayName = "Etant donné le chiffre 1" +
+        [Theory(DisplayName = "Etant donné le chiffre de 1 à 3" +
                             "Quand je convertis chiffreArabe en NombreRomain" +
-                            "Alors j'obtiens I")]
-        public void TestUn()
+                            "Alors j'obtiens I x fois")]
+        [InlineData(1)]
+        [InlineData(2)]
+        [InlineData(3)]
+        public void TestUn(uint chiffreArabe)
         {
-            const uint chiffreArabe = 1;
-
             var nombreRomain = Convertisseur.Convertir(chiffreArabe);
 
-            Assert.Equal("I", nombreRomain);
+            var iResult = new string('I', (int)chiffreArabe);
+
+            Assert.Equal(iResult, nombreRomain);
         }
 
         [Fact(DisplayName = "Etant donné le chiffre 2" +
