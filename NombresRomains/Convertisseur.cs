@@ -6,9 +6,7 @@
         {
             return chiffreArabe switch
             {
-                1 => "I",
-                2 => "II",
-                3 => "III",
+                <= 3 => new string('I', (int)chiffreArabe),
                 4 => "IV",
                 5 => "V",
                 _ => "Erreur"
