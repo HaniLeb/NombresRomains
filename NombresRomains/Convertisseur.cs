@@ -8,10 +8,7 @@
             {
                 <= 3 => new string('I', (int)chiffreArabe),
                 4 => "IV",
-                5 => "V",
-                6 => "VI",
-                7 => "VII",
-                8 => "VIII",
+                < 9 => "V" + Convertir(chiffreArabe - 5),
                 9 => "IX",
                 10 => "X",
                 _ => "Erreur"
